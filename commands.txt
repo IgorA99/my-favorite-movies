@@ -1,0 +1,35 @@
+    1  history
+    2  cd "C:\Users\Admin\Desktop\homework"
+    3  mkdir my-favorite-movies && cd my-favorite-movies
+    4  git init
+    5  mkdir src docs data
+    6  touch README.md src/app.txt data/movies.txt
+    7  nano README.md
+    8  cat README.md
+    9  nano data/movies.txt
+   10  cat data/movies.txt
+   11  nano src/app.txt
+   12  cat  src/app.txt
+   13  ls
+   14  ls -a
+   15  pwd
+   16  less data/movies.txt
+   17  clear
+   18  cd data
+   19  cd ..
+   20  cp data/movies.txt data/movies_backup.txt
+   21  mkdir data/archive
+   22  cp data/movies.txt data/archive/
+   23  rm data/movies_backup.txt
+   24  mkdir tmp
+   25  touch tmp/test.txt
+   26  rm -r tmp
+   27  git add .
+   28  git commit -m "Init project: movie list"
+   29  git branch -M main
+   30  git remote add origin
+   31  git remote add origin https://github.com/IgorA99/my-favorite-movies
+   32  git push -u origin main
+   33  git push -u origin main
+   34  history
+   35  history > commands.txt
